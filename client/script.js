@@ -68,7 +68,7 @@ const handleSubmit = async (e) => {
     loader(messageDiv);
     
     // Fetch data
-    const response = await fetch('http://localhost:5000', {
+    const response = await fetch('https://codex-your-coding-ai.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': "application/json"
